@@ -1,0 +1,23 @@
+/* Custom Styles for Pizza Delight */
+.pizza-card img {
+  transition: transform 0.3s ease;
+}
+
+.pizza-card:hover img {
+  transform: scale(1.05);
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(to right, #f97316, #dc2626);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #dc2626, #f97316);
+}
